@@ -21,7 +21,7 @@ public class Capabilities {
 	public static AndroidDriver<AndroidElement> capability() throws MalformedURLException {
 		DesiredCapabilities dc = new DesiredCapabilities();
 		
-        dc.setCapability(MobileCapabilityType.DEVICE_NAME, "First");
+        dc.setCapability(MobileCapabilityType.DEVICE_NAME, "Shivani");
 				
 		dc.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
 		
