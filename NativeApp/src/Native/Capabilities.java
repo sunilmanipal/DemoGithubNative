@@ -42,6 +42,7 @@ public class Capabilities {
 		
 //		
 		
+		
 		AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(new URL("http://0.0.0.0:4723/wd/hub"),dc);
 		return driver;
 
