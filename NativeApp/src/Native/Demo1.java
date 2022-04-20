@@ -54,8 +54,7 @@ public class Demo1 extends Capabilities{
 		Thread.sleep(2000);
 		driver.findElement(MobileBy.AccessibilityId("Battery Saver")).click();
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
-		System.out.println("This is jarvis repo");
-		System.out.println("This is jarvis repo");
+		
 		
 	}
 	}
